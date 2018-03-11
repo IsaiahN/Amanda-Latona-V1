@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License:none (public domain)*/html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}/* HTML5 display-role reset for older browsers */article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* --- Main Styles ------------------------------ */
+html, body {
+width: 100%;
+background-image: url('/blvdpaywall/images/repeat.png');
+background-repeat: repeat-x;
+background-color: #000;
+font-size: 16px;
+}
+@font-face
+{
+font-family: Sanbold;
+src: url('font/Sansation_Bold.ttf'),
+     url('font/Sansation_Bold.eot') format("opentype"); /* IE */
+} 
+@font-face
+{
+font-family: Sanlight;
+src: url('font/Sansation_Light.ttf'),
+     url('font/Sansation_Light.eot') format("opentype"); /* IE */
+} 
+@font-face
+{
+font-family: Sanlightitalic;
+src: url('font/Sansation_Light_Italic.ttf'),
+     url('font/Sansation_Light_Italic.eot') format("opentype"); /* IE */
+}
+h1,h2,h3 {
+font-family: Sanbold;
+Color: #fff;
+}
+h3 {
+font-size: 18px;
+}
+
+.logo {
+font-size: 27px;
+line-height: 61px;
+}
+.logo span {
+color: #e5e5e5;
+font-family: Sanlight;
+font-size: 20px;
+}
+
+#mainwrapper {
+background-image: url('/blvdpaywall/images/girl8bg.png');
+background-repeat: no-repeat;
+margin: 0px auto;
+width: 1024px;
+height: 768px;
+padding-left: 56px;
+}
+#nav ul {
+line-height: 30px;
+position: relative;
+top: 17px;
+right: 80px;
+float: right;
+}
+#nav li {
+display: inline;
+font-family: Sanlightitalic;
+font-size: 17px;
+color: #fefefe;
+margin-right: 17px;
+}
+#button2 {
+padding: 5px 0px;
+position: relative;
+width: 249px;
+}
+
+#nav a {
+text-decoration: none;
+color: #fff;
+}
+#nav a:hover {
+color: #fff;
+font-family: Sanlight;
+}
+#mainheader, #mainheader2 {
+font-size: 28px;
+margin-top: 62px;
+text-shadow: 8px 8px 8px #000;
+}
+
+#feature, #feature2 {
+color: #fff;
+font-family: Sanlight;
+font-size: 17px;
+position: relative;
+top: 4px; 
+line-height: 20px;
+}
+#video, #video2 {
+padding: auto;
+position: absolute;
+top: 461px;
+padding-left: 10px;
+
+}
+#feature, #mainheader, #video {
+display:block;
+}
+#feature2, #mainheader2, #video2 {
+display:none;
+}
+
+
+.streamlink, .streamlink:hover {
+color: #ddd;
+font-size: 10px;
+position: relative;
+right: 255px;
+top: 15px;
+
+}
